@@ -10,8 +10,8 @@ args = vars(ap.parse_args())
 
 # объект VideoCapture
 cap = cv2.VideoCapture(args["video"])  # используем значение аргумента "video" для задания источника видео
-cap.set(3, 600)
-cap.set(4, 500)
+cap.set(3, 1000)
+cap.set(4, 1000)
 
 
 while True:

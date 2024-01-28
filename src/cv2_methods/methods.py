@@ -31,7 +31,7 @@ cv2.imshow("circle:", im_circle)
 ##################################################################################
 
 # text in image:
-cv2.putText(im_circle, "Hello World", (100, 150), cv2.FONT_ITALIC, 1, (255, 0, 0), 3)
+cv2.putText(im_circle, "Hello World", (250, 250), cv2.FONT_ITALIC, 1, (255, 0, 0), 3)
 cv2.imshow("text:", im_circle)
 
 cv2.waitKey(0)
